@@ -3,6 +3,7 @@ BAsed on repo: https://github.com/TanviSahay/Schema-Matching-using-Machine-Learn
 
 Trying to reproduce results.
 
+
 ### HowTo
 Collect the data from : https://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems 
 Two files,
@@ -20,3 +21,7 @@ The highlighted rows contain 2 attributes indicating not a perfect match, while 
 
  ![results](image/results.jpg)
  
+ ### Changes
+ 1. migrated to python 3
+ 2. simplified functions
+ 3. added a mechanism to rank the selections based on 2 metrics - distance and avg probability.
